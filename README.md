@@ -1,4 +1,4 @@
-# Intake NCIC Pangeo
+# Intake NCIC Pangeo [![Build Status](https://travis-ci.com/informatics-lab/data-ncic-pangeo.svg?branch=master)](https://travis-ci.com/informatics-lab/data-ncic-pangeo)
 
 National Climate Information Centre (NCIC) daily land observations.
 
