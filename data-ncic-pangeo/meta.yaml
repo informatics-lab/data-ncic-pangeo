@@ -7,7 +7,15 @@ build:
   number: {{ GIT_DESCRIBE_NUMBER }}
   noarch: generic
 
+source:
+   path: .
+git:
+  depth: false
+
 requirements:
+  build:
+    - python
+    - jinja2
   run:
     - intake
     - intake_iris
