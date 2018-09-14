@@ -8,7 +8,7 @@ build:
   noarch: generic
 
 source:
-   path: .
+   path: ..
 git:
   depth: false
 
