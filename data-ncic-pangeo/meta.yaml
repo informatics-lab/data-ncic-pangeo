@@ -1,0 +1,20 @@
+# meta.yaml
+package:
+  name: 'data-ncic-pangeo'
+  version: {{ GIT_DESCRIBE_TAG }}
+
+build:
+  number: {{ GIT_DESCRIBE_NUMBER }}
+  noarch: generic
+
+requirements:
+  run:
+    - intake
+    - intake_iris
+  build: []
+
+about:
+  description: National Climate Information Centre (NCIC) daily land observations.
+  license: None
+  license_family: PROPRIETARY
+  summary: National Climate Information Centre (NCIC) daily land observations.
