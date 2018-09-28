@@ -1,6 +1,6 @@
 # meta.yaml
 package:
-  name: 'data-ncic-pangeo'
+  name: 'data_ncic_pangeo'
   version: {{ GIT_DESCRIBE_TAG }}
 
 build:
@@ -18,7 +18,7 @@ requirements:
     - jinja2
   run:
     - intake
-    - intake-iris
+    - intake_iris
   build: []
 
 about:
